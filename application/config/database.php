@@ -48,10 +48,14 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'mysql:host=sql311.byethost15.com;dbname=b15_14114180';//localhost';
-$db['default']['username'] = 'b15_14114180';
-$db['default']['password'] = 'Rosedesendants12';
-$db['default']['database'] = 'b15_14114180_soft';
+// $db['default']['hostname'] = 'mysql:host=sql311.byethost15.com;dbname=b15_14114180';//localhost';
+$db['default']['hostname'] = 'mysql:host=localhost;dbname=softengi';
+// $db['default']['username'] = 'b15_14114180';
+$db['default']['username'] = 'root';
+// $db['default']['password'] = 'Rosedesendants12';
+$db['default']['password'] = null;
+// $db['default']['database'] = 'b15_14114180_soft';
+$db['default']['database'] = 'softengi';
 $db['default']['dbdriver'] = 'pdo';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;

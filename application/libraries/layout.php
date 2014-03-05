@@ -16,6 +16,7 @@ class Layout {
 				$html .= "<script src='".site_url("assets/dists/js/" . $js . ".js")."'></script>";
 			}
 		}
+		$html .= "<link rel=\"stylesheet\" media=\"screen and (-webkit-device-pixel-ratio:1.5)\" href=\"hdpi.css\" />";
 		$html .= "</head>";
 		$html .= "<body>";
 		$html .= "<div class='container'>";

@@ -14,8 +14,8 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://softwareengineering.byethost15.com/';
-
+// $config['base_url']	= 'http://softwareengineering.byethost15.com/';
+$config['base_url'] = null;
 /*
 |--------------------------------------------------------------------------
 | Index File
